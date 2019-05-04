@@ -3,6 +3,7 @@ const browserSync = require('browser-sync');
 var concat = require('gulp-concat');
 var uglify = require('gulp-uglify');
 var sass = require('gulp-sass');
+var ghPages = require('gulp-gh-pages');
 
 gulp.task('concat', function() {
   return gulp.src('./source/javascripts/**/*.js')
@@ -50,6 +51,10 @@ gulp.task('browserSync', function () {
   gulp.watch(['./source/**/*.html'], gulp.series('copy'));
 });
 
+gulp.task('deploy', function() {
+  return gulp.src('./public/**/*')
+    .pipe(ghPages());
+});
 
 gulp.task('watch', function () {
   gulp.watch(['./source/**/*.sass', './source/**/*.scss'], gulp.series('sass'));
