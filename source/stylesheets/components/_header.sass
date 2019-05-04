@@ -1,0 +1,53 @@
+.header 
+  $main-height: 496px
+  position: relative
+  .header-main-image 
+    height: $main-height
+
+.rectangle-image-wrap
+  $rectangle-image-height: 265px
+  height: $rectangle-image-height
+  writing-mode: vertical-lr
+  font-weight: bold
+  letter-spacing: 0.5rem
+  display: flex
+  align-items: center
+  justify-content: center
+  font-size: $font-size-base * 1.5
+  z-index: 2
+  overflow: hidden
+  border: 1px #fff solid
+  &:hover
+    .rectangle-image
+      filter: blur(0px)
+  .rectangle-image
+    position: absolute
+    right: 0
+    left: 0
+    top: 0
+    bottom: 0
+    filter: blur(5px)
+    z-index: -2
+    transition: filter .5s
+
+
+.header
+  &-list
+    margin-top: -5.625rem
+  .header-bgc
+    background-color: rgba(theme-color('primary'), .8)
+    position: absolute
+    right: 0
+    left: 0
+    top: 0
+    bottom: 0
+    z-index: 1
+  .header-text
+    z-index: 2
+    color: #fff
+    
+.header-today
+  .header-text
+    color: $primary
+  .header-bgc
+    background-color: rgba(theme-color('accent'), .8)

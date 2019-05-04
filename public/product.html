@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="./stylesheets/all.css">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-white">
+    <div class="container">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <h1 class="logo mb-0 mx-auto">
+        <a href="index.html" class="hide-text">logo</a>
+      </h1>
+      <a class="nav-link pb-0 order-lg-1" href="cart.html"><i class="material-icons">shopping_cart</i></a>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">首頁 <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="product.html">甜點</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="login.html">登入</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <section class="container header px-0 px-lg-10">
+    <div class="header-main-image bg-cover"
+      style="background-image: url(https://images.unsplash.com/photo-1512484457149-266d165a4eca?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=786581a33fd6c9343735655439ce2e5a&auto=format&fit=crop&w=1380&q=80)">
+    </div>
+  </section>
+
+  <section class="mt-md-6">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 text-center mb-5">
+          <div class="list-group" id="list-tab" role="tablist">
+            <a class="list-group-item list-group-item-action disabled" id="list-home-list" data-toggle="list"
+              href="#list-home" role="tab" aria-controls="home">甜點類別</a>
+            <a class="list-group-item list-group-item-action active" id="list-profile-list" data-toggle="list"
+              href="#list-profile" role="tab" aria-controls="profile">所有甜點（48）</a>
+            <a class="list-group-item list-group-item-action" id="list-messages-list" data-toggle="list"
+              href="#list-messages" role="tab" aria-controls="messages">本日精選（10）</a>
+            <a class="list-group-item list-group-item-action" id="list-settings-list" data-toggle="list"
+              href="#list-settings" role="tab" aria-controls="settings">人氣推薦（26）</a>
+            <a class="list-group-item list-group-item-action" id="list-New-listing-list" data-toggle="list"
+              href="#list-New-listing" role="tab" aria-controls="settings">新品上市（12）</a>
+          </div>
+        </div>
+        <div class="col-md-8">
+          <div class="tab-content" id="nav-tabContent">
+            <div class="tab-pane fade show active" id="list-profile" role="tabpanel"
+              aria-labelledby="list-profile-list">
+              <div class="row">
+                <div class="col-md-6 mb-4">
+                  <div class="item-card">
+                    <div class="item-image"
+                      style="background-image: url(https://images.unsplash.com/photo-1514517220017-8ce97a34a7b6?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=7c376ffa487bcd258df29dc881b10703&auto=format&fit=crop&w=700&q=60)">
+                      <div class="item-tag">本日精選</div>
+                      <div class="item-icon">
+                        <label class="i-checked-display">
+                          <input type="checkbox" class="i-checkbox">
+                          <i class="material-icons i-show">favorite</i>
+                          <i class="material-icons i-hidden">favorite_border</i>
+                        </label>
+                      </div>
+                    </div>
+                    <div class="item-body d-flex text-center">
+                      <div class="item-title col">焦糖馬卡龍</div>
+                      <strong class="item-price col">NT$ 450</strong>
+                    </div>
+                    <a href="#" class="btn-lg btn-primary-lighter btn btn-block">
+                      加入購物車
+                    </a>
+                  </div>
+                </div>
+                <div class="col-md-6 mb-4">
+                  <div class="item-card">
+                    <div class="item-image"
+                      style="background-image: url(https://images.unsplash.com/photo-1525203135335-74d272fc8d9c?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=61b27d2cefd0dd094b5439f897b43bb7&auto=format&fit=crop&w=700&q=60)">
+                      <div class="item-tag">本日精選</div>
+                      <div class="item-icon">
+                        <label class="i-checked-display">
+                          <input type="checkbox" class="i-checkbox">
+                          <i class="material-icons i-show">favorite</i>
+                          <i class="material-icons i-hidden">favorite_border</i>
+                        </label>
+                      </div>
+                    </div>
+                    <div class="item-body d-flex text-center">
+                      <div class="item-title col">焦糖馬卡龍</div>
+                      <strong class="item-price col">NT$ 450</strong>
+                    </div>
+                    <a href="#" class="btn-lg btn-primary-lighter btn btn-block">
+                      加入購物車
+                    </a>
+                  </div>
+                </div>
+                <div class="col-md-6 mb-4">
+                  <div class="item-card">
+                    <div class="item-image"
+                      style="background-image: url(https://images.unsplash.com/photo-1504473089979-b1c4993a9653?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=9db69b72e1f7d1b4e5c81cee531108ff&auto=format&fit=crop&w=700&q=60)">
+                      <div class="item-tag">本日精選</div>
+                      <div class="item-icon">
+                        <label class="i-checked-display">
+                          <input type="checkbox" class="i-checkbox">
+                          <i class="material-icons i-show">favorite</i>
+                          <i class="material-icons i-hidden">favorite_border</i>
+                        </label>
+                      </div>
+                    </div>
+                    <div class="item-body d-flex text-center">
+                      <div class="item-title col">焦糖馬卡龍</div>
+                      <strong class="item-price col">NT$ 450</strong>
+                    </div>
+                    <a href="#" class="btn-lg btn-primary-lighter btn btn-block">
+                      加入購物車
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <nav aria-label="Page navigation example">
+                <ul class="pagination pagination-sm-lg mt-2 d-flex justify-content-end">
+                  <li class="page-item">
+                    <a class="page-link" href="#" aria-label="Previous">
+                      <span aria-hidden="true">&ltrif;</span>
+                      <span class="sr-only">Previous</span>
+                    </a>
+                  </li>
+                  <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                  <li class="page-item"><a class="page-link" href="#">2</a></li>
+                  <li class="page-item"><a class="page-link" href="#">3</a></li>
+                  <li class="page-item">
+                    <a class="page-link" href="#" aria-label="Next">
+                      <span aria-hidden="true">&rtrif;</span>
+                      <span class="sr-only">Next</span>
+                    </a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+            <div class="tab-pane fade" id="list-messages" role="tabpanel" aria-labelledby="list-messages-list">
+              <div class="row">
+                <div class="col-md-6 mb-4">
+                  <div class="item-card">
+                    <div class="item-image"
+                      style="background-image: url(https://images.unsplash.com/photo-1490474504059-bf2db5ab2348?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60)">
+                      <div class="item-tag">本日精選</div>
+                      <div class="item-icon">
+                        <label class="i-checked-display">
+                          <input type="checkbox" class="i-checkbox">
+                          <i class="material-icons i-show">favorite</i>
+                          <i class="material-icons i-hidden">favorite_border</i>
+                        </label>
+                      </div>
+                    </div>
+                    <div class="item-body d-flex text-center">
+                      <div class="item-title col">焦糖馬卡龍</div>
+                      <strong class="item-price col">NT$ 450</strong>
+                    </div>
+                    <a href="#" class="btn-lg btn-primary-lighter btn btn-block">
+                      加入購物車
+                    </a>
+                  </div>
+                </div>
+                <div class="col-md-6 mb-4">
+                  <div class="item-card">
+                    <div class="item-image"
+                      style="background-image: url(https://images.unsplash.com/photo-1464305795204-6f5bbfc7fb81?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60)">
+                      <div class="item-tag">本日精選</div>
+                      <div class="item-icon">
+                        <label class="i-checked-display">
+                          <input type="checkbox" class="i-checkbox">
+                          <i class="material-icons i-show">favorite</i>
+                          <i class="material-icons i-hidden">favorite_border</i>
+                        </label>
+                      </div>
+                    </div>
+                    <div class="item-body d-flex text-center">
+                      <div class="item-title col">焦糖馬卡龍</div>
+                      <strong class="item-price col">NT$ 450</strong>
+                    </div>
+                    <a href="#" class="btn-lg btn-primary-lighter btn btn-block">
+                      加入購物車
+                    </a>
+                  </div>
+                </div>
+                <div class="col-md-6 mb-4">
+                  <div class="item-card">
+                    <div class="item-image"
+                      style="background-image: url(https://images.unsplash.com/photo-1474045326708-cdc78c2487cb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60)">
+                      <div class="item-tag">本日精選</div>
+                      <div class="item-icon">
+                        <label class="i-checked-display">
+                          <input type="checkbox" class="i-checkbox">
+                          <i class="material-icons i-show">favorite</i>
+                          <i class="material-icons i-hidden">favorite_border</i>
+                        </label>
+                      </div>
+                    </div>
+                    <div class="item-body d-flex text-center">
+                      <div class="item-title col">焦糖馬卡龍</div>
+                      <strong class="item-price col">NT$ 450</strong>
+                    </div>
+                    <a href="#" class="btn-lg btn-primary-lighter btn btn-block">
+                      加入購物車
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <nav aria-label="Page navigation example">
+                <ul class="pagination pagination-sm-lg mt-2 d-flex justify-content-end">
+                  <li class="page-item">
+                    <a class="page-link" href="#" aria-label="Previous">
+                      <span aria-hidden="true">&ltrif;</span>
+                      <span class="sr-only">Previous</span>
+                    </a>
+                  </li>
+                  <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                  <li class="page-item"><a class="page-link" href="#">2</a></li>
+                  <li class="page-item"><a class="page-link" href="#">3</a></li>
+                  <li class="page-item">
+                    <a class="page-link" href="#" aria-label="Next">
+                      <span aria-hidden="true">&rtrif;</span>
+                      <span class="sr-only">Next</span>
+                    </a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+            <div class="tab-pane fade" id="list-settings" role="tabpanel" aria-labelledby="list-settings-list">
+              <div class="row">
+                <div class="col-md-6 mb-4">
+                  <div class="item-card">
+                    <div class="item-image"
+                      style="background-image: url(https://images.unsplash.com/photo-1514517220017-8ce97a34a7b6?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=7c376ffa487bcd258df29dc881b10703&auto=format&fit=crop&w=700&q=60)">
+                      <div class="item-tag">本日精選</div>
+                      <div class="item-icon">
+                        <label class="i-checked-display">
+                          <input type="checkbox" class="i-checkbox">
+                          <i class="material-icons i-show">favorite</i>
+                          <i class="material-icons i-hidden">favorite_border</i>
+                        </label>
+                      </div>
+                    </div>
+                    <div class="item-body d-flex text-center">
+                      <div class="item-title col">焦糖馬卡龍</div>
+                      <strong class="item-price col">NT$ 450</strong>
+                    </div>
+                    <a href="#" class="btn-lg btn-primary-lighter btn btn-block">
+                      加入購物車
+                    </a>
+                  </div>
+                </div>
+                <div class="col-md-6 mb-4">
+                  <div class="item-card">
+                    <div class="item-image"
+                      style="background-image: url(https://images.unsplash.com/photo-1525203135335-74d272fc8d9c?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=61b27d2cefd0dd094b5439f897b43bb7&auto=format&fit=crop&w=700&q=60)">
+                      <div class="item-tag">本日精選</div>
+                      <div class="item-icon">
+                        <label class="i-checked-display">
+                          <input type="checkbox" class="i-checkbox">
+                          <i class="material-icons i-show">favorite</i>
+                          <i class="material-icons i-hidden">favorite_border</i>
+                        </label>
+                      </div>
+                    </div>
+                    <div class="item-body d-flex text-center">
+                      <div class="item-title col">焦糖馬卡龍</div>
+                      <strong class="item-price col">NT$ 450</strong>
+                    </div>
+                    <a href="#" class="btn-lg btn-primary-lighter btn btn-block">
+                      加入購物車
+                    </a>
+                  </div>
+                </div>
+                <div class="col-md-6 mb-4">
+                  <div class="item-card">
+                    <div class="item-image"
+                      style="background-image: url(https://images.unsplash.com/photo-1504473089979-b1c4993a9653?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=9db69b72e1f7d1b4e5c81cee531108ff&auto=format&fit=crop&w=700&q=60)">
+                      <div class="item-tag">本日精選</div>
+                      <div class="item-icon">
+                        <label class="i-checked-display">
+                          <input type="checkbox" class="i-checkbox">
+                          <i class="material-icons i-show">favorite</i>
+                          <i class="material-icons i-hidden">favorite_border</i>
+                        </label>
+                      </div>
+                    </div>
+                    <div class="item-body d-flex text-center">
+                      <div class="item-title col">焦糖馬卡龍</div>
+                      <strong class="item-price col">NT$ 450</strong>
+                    </div>
+                    <a href="#" class="btn-lg btn-primary-lighter btn btn-block">
+                      加入購物車
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <nav aria-label="Page navigation example">
+                <ul class="pagination pagination-sm-lg mt-2 d-flex justify-content-end">
+                  <li class="page-item">
+                    <a class="page-link" href="#" aria-label="Previous">
+                      <span aria-hidden="true">&ltrif;</span>
+                      <span class="sr-only">Previous</span>
+                    </a>
+                  </li>
+                  <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                  <li class="page-item"><a class="page-link" href="#">2</a></li>
+                  <li class="page-item"><a class="page-link" href="#">3</a></li>
+                  <li class="page-item">
+                    <a class="page-link" href="#" aria-label="Next">
+                      <span aria-hidden="true">&rtrif;</span>
+                      <span class="sr-only">Next</span>
+                    </a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+            <div class="tab-pane fade" id="list-New-listing" role="tabpanel" aria-labelledby="list-New-listing-list">
+              <div class="row">
+                <div class="col-md-6 mb-4">
+                  <div class="item-card">
+                    <div class="item-image"
+                      style="background-image: url(https://images.unsplash.com/photo-1490474504059-bf2db5ab2348?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60)">
+                      <div class="item-tag">本日精選</div>
+                      <div class="item-icon">
+                        <label class="i-checked-display">
+                          <input type="checkbox" class="i-checkbox">
+                          <i class="material-icons i-show">favorite</i>
+                          <i class="material-icons i-hidden">favorite_border</i>
+                        </label>
+                      </div>
+                    </div>
+                    <div class="item-body d-flex text-center">
+                      <div class="item-title col">焦糖馬卡龍</div>
+                      <strong class="item-price col">NT$ 450</strong>
+                    </div>
+                    <a href="#" class="btn-lg btn-primary-lighter btn btn-block">
+                      加入購物車
+                    </a>
+                  </div>
+                </div>
+                <div class="col-md-6 mb-4">
+                  <div class="item-card">
+                    <div class="item-image"
+                      style="background-image: url(https://images.unsplash.com/photo-1464305795204-6f5bbfc7fb81?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60)">
+                      <div class="item-tag">本日精選</div>
+                      <div class="item-icon">
+                        <label class="i-checked-display">
+                          <input type="checkbox" class="i-checkbox">
+                          <i class="material-icons i-show">favorite</i>
+                          <i class="material-icons i-hidden">favorite_border</i>
+                        </label>
+                      </div>
+                    </div>
+                    <div class="item-body d-flex text-center">
+                      <div class="item-title col">焦糖馬卡龍</div>
+                      <strong class="item-price col">NT$ 450</strong>
+                    </div>
+                    <a href="#" class="btn-lg btn-primary-lighter btn btn-block">
+                      加入購物車
+                    </a>
+                  </div>
+                </div>
+                <div class="col-md-6 mb-4">
+                  <div class="item-card">
+                    <div class="item-image"
+                      style="background-image: url(https://images.unsplash.com/photo-1474045326708-cdc78c2487cb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60)">
+                      <div class="item-tag">本日精選</div>
+                      <div class="item-icon">
+                        <label class="i-checked-display">
+                          <input type="checkbox" class="i-checkbox">
+                          <i class="material-icons i-show">favorite</i>
+                          <i class="material-icons i-hidden">favorite_border</i>
+                        </label>
+                      </div>
+                    </div>
+                    <div class="item-body d-flex text-center">
+                      <div class="item-title col">焦糖馬卡龍</div>
+                      <strong class="item-price col">NT$ 450</strong>
+                    </div>
+                    <a href="#" class="btn-lg btn-primary-lighter btn btn-block">
+                      加入購物車
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <nav aria-label="Page navigation example">
+                <ul class="pagination pagination-sm-lg mt-2 d-flex justify-content-end">
+                  <li class="page-item">
+                    <a class="page-link" href="#" aria-label="Previous">
+                      <span aria-hidden="true">&ltrif;</span>
+                      <span class="sr-only">Previous</span>
+                    </a>
+                  </li>
+                  <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                  <li class="page-item"><a class="page-link" href="#">2</a></li>
+                  <li class="page-item"><a class="page-link" href="#">3</a></li>
+                  <li class="page-item">
+                    <a class="page-link" href="#" aria-label="Next">
+                      <span aria-hidden="true">&rtrif;</span>
+                      <span class="sr-only">Next</span>
+                    </a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="mt-6 bg-primary py-5">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-md-5 d-flex align-items-center">
+          <img src="images/logo-light.svg" width="40" height="40" alt="">
+          <span class="mx-3 text-white h4 mb-0">訂閱你我的甜蜜郵件</span>
+        </div>
+        <div class="col-md-5 mt-5 mt-md-0">
+          <div class="input-group">
+            <label for="subscription" class="material-icons">email</label>
+            <input type="text" class="form-control" placeholder="" id="subscription">
+            <button class="btn btn-accent" type="button" style="width:64px; height:56px">
+              <i class="material-icons">arrow_forward</i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="bg-primary-lighter py-5">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-md-5  d-flex flex-column justify-content-between">
+          <div>
+            <img src="images/logotype-sm-dark.svg" height="27" alt="">
+          </div>
+          <ul class="list-unstyled mt-5">
+            <li>07-1234-5678</li>
+            <li><a href="mailto:sweetaste@email.com">sweetaste@email.com</a></li>
+            <li>800 高雄市新興區幸福路 520 號</li>
+          </ul>
+        </div>
+        <div class="col-md-5 text-right d-none d-md-inline-block">
+          <img src="images/sm-今天是個吃甜點的好日子.svg" width="60" alt="">
+        </div>
+      </div>
+      <div class="row justify-content-center mt-5">
+        <div class="col-md-5">
+          <img src="images/ic-line@.svg" height="32" width="32" alt="">
+          <img src="images/ic-facebook.svg" height="32" width="32" alt="">
+        </div>
+        <div class="col-md-5 text-md-right pt-2">
+          <span>© 2018 Sweetaste* All Rights Reserved</span>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="./javascripts/vendor.js"></script>
+  <script src="./javascripts/all.js"></script>
+</body>
+
+</html>

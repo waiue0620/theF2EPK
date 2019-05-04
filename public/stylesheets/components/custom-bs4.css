@@ -1,0 +1,9 @@
+.container {
+  padding-right: 42px;
+  padding-left: 42px; }
+
+.nav-item {
+  font-weight: bold; }
+
+.nav-link .material-icons {
+  padding-left: 33px; }

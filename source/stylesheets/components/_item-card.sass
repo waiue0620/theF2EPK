@@ -1,0 +1,48 @@
+.item-card 
+  display: flex
+  flex-direction: column
+  .item-image
+    height: 315px
+    background-size: cover
+    background-position: center center
+    position: relative
+  .btn-primary-lighter 
+    color: $primary
+
+.item-body
+  border: 1px solid $primary-2
+
+.item-title, .item-price 
+  padding-top: 15px
+  padding-bottom: 15px
+  font-size: $font-size-lg
+.item-price 
+  border-left: 1px solid $primary-2
+
+.item-tag
+  writing-mode: vertical-lr
+  background-color: $primary
+  color: white
+  padding: 10px
+  letter-spacing: 5px
+  position: absolute;
+  left: 20px;
+  top: 0;
+
+.i-checked-display 
+  cursor: pointer
+  .i-show, .i-checkbox
+    display: none;
+
+  .i-checkbox:checked 
+    & ~ .i-show 
+      display: block
+    & ~ .i-hidden 
+      display: none
+
+
+.item-icon 
+  position: absolute;
+  top: 20px;
+  right: 22px;
+  
